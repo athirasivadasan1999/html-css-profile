@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/grey-background.jpg");
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 4.5em;
+}
+
+.navigation {
+    text-align: center;
+    color: white;
+    padding-top: 23px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+footer{
+    text-align:center;
+    color: black;
+    padding-top: 10px;
+}
+
+footer h5{
+    margin-bottom: 1px;
+    height: 2em;
+    color: white;
+    background-color: black;
+}
+
+.navi a {
+    color:black;
+    text-decoration: solid;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+table{
+    border-spacing: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+input{
+    padding: 1px;
+    width: 300px;
+    height: 40px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(240, 189, 126);
+}
+
+#hello{
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 4px;
+    line-height: 57px;
+}
+
+
+#profile-pic{
+    float: left;
+    margin-top: 15px;
+    margin-left: 150px;
+    height: 325px;
+}
+
+.about{
+    letter-spacing: 1px;
+    float:right;
+    width: 53%;
+    text-align: justify;
+    margin-top: 35px;
+    margin-right: 150px;
+    height: 330px;
+}
+
+#skills-pic{ 
+    float: right;
+    margin-right: 150px;
+    margin-top: 48px;
+    height: 300px;
+}
+
+.skills {
+    color: black;
+    letter-spacing: 1px;
+    width: 30%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.skills li {
+    padding: 2px;
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+h2{
+    text-align: center;
+} 
+
+.education{
+    float: left;
+    margin-left:150px;
+    margin-top: 90px;
+    padding: 3px;
+    width: 28%;
+}
+
+.edu-details ul{
+    margin-left: 30px;
+    list-style-type:circle;
+    padding: 3px;
+}
+
+.qualification li{
+    margin-left: 40px;
+}
+
+.experience{
+    float:right;
+    margin-top: 60px;
+    margin-right: 150px;
+    width: 30%;
+    padding: 3px;
+    height: 300px;
+    letter-spacing: 1px;
+}
